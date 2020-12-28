@@ -30,7 +30,7 @@
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="main.jsp">Main</a></li>
-				<li><a href="bbs.jsp">Forum</a></li>
+				<li><a href="bbs.jsp">Board</a></li>
 			</ul>
 			<%
 				if (userID == null) {
