@@ -6,8 +6,20 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="For"/>
+		<item key="selection" value="Writer"/>
 		<list key="findhistory">
+			<item value="writer"/>
+			<item value="center"/>
+			<item value="img"/>
+			<item value="ima"/>
+			<item value="no"/>
+			<item value="login"/>
+			<item value="edit"/>
+			<item value="val"/>
+			<item value="forum"/>
+			<item value="bbsid"/>
+			<item value="format"/>
+			<item value="Write format"/>
 			<item value="for"/>
 			<item value="active"/>
 			<item value="gender"/>

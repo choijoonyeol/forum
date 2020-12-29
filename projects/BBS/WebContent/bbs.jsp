@@ -10,6 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width" , initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/custom.css">
 <title>JSP Forum</title>
 <style type="text/css">
 	a, a:hover {
@@ -81,8 +82,8 @@
 				<thead>
 					<tr>
 						<th style="background-color: #eeeee; text-align: center;">No</th>
-						<th style="background-color: #eeeee; text-align: center;">Title</th>
-						<th style="background-color: #eeeee; text-align: center;">Writer</th>
+						<th style="background-color: #eeeee; text-align: center	;">Title</th>
+						<th style="background-color: #eeeee; text-align: right;">Writer</th>
 						<th style="background-color: #eeeee; text-align: center;">Day</th>
 					</tr>	
 				</thead>
@@ -95,7 +96,7 @@
 					<tr>
 						<td><%=list.get(i).getBbsID()%></td>
 						<td><a href="view.jsp?bbsID=<%=list.get(i).getBbsID()%>"><%=list.get(i).getBbsTitle().replaceAll(" ", "&nbsp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\n", "<br>") %></a></td>
-						<td><%=list.get(i).getUserID()%></td>
+						<td align="right"><%=list.get(i).getUserID()%></td>
 						<td><%=list.get(i).getBbsDate().substring(0, 11) + list.get(i).getBbsDate().substring(11, 13) + ":"
 	+ list.get(i).getBbsDate().substring(14,16)%></td>
 					</tr>

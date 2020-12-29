@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.codeformatter.line_wrapping_tab_page.preview_line_width" value="50"/>
-	<item key="org.eclipse.jdt.uiformatter_page.last_focus_index" value="5"/>
+	<item key="org.eclipse.jdt.uiformatter_page.last_focus_index" value="1"/>
 	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_width" value="1081"/>
 	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_height" value="717"/>
 	<item key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_x" value="47"/>
@@ -13,6 +13,7 @@
 	<item key="ProjectSelectionDialog.show_all" value="true"/>
 	<item key="org.eclipse.jdt.ui.formatter_page.show_invisible_characters" value="false"/>
 	<item key="org.eclipse.jdt.ui.formatter_page.custom_preview_toggle" value="false"/>
+	<item key="org.eclipse.jdt.ui.codeformatter.create_profile_dialog.open_edit" value="true"/>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewPackageWizardPage">
